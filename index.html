@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo Animator</title>
+    <link rel="stylesheet" href="./styles.css" class="css">
+</head>
+<body>
+    <div class="custom-code-logos">
+        <div class="custom-code-logos-slide">
+            <img src="./logos/attack-on-titan-logo.png" alt="Logo">
+            <img src="./logos/bleach-logo.png" alt="Logo">
+            <img src="./logos//demon-slayer-logo.png" alt="Logo">
+            <img src="./logos/dragon-ball-z-logo.png" alt="Logo">
+            <img src="./logos/hunter-x-hunter-logo.png" alt="Logo">
+            <img src="./logos/naruto-logo.png" alt="Logo">
+            <img src="./logos/one-piece-logo.png" alt="Logo">
+        </div>
+    </div>
+
+    <script>
+        var copy = document.querySelector(".custom-code-logos-slide").cloneNode(true)
+        document.querySelector('.custom-code-logos').appendChild(copy)
+    </script>
+</body>
+</html>
